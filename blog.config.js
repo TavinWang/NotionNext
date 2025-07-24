@@ -63,7 +63,6 @@ const BLOG = {
   GREETING_WORDS:
     process.env.NEXT_PUBLIC_GREETING_WORDS ||
     'Welcome to the museum of myself.', 
-    "欢迎来到我的自我博物馆",
     'Step into the gallery of my soul.', 
   /*  
   'Enter the archive of my essence.', 
