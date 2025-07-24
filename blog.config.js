@@ -62,21 +62,7 @@ const BLOG = {
   // 欢迎语打字效果,Hexo,Matery主题支持, 英文逗号隔开多个欢迎语。
   GREETING_WORDS:
     process.env.NEXT_PUBLIC_GREETING_WORDS ||
-    'Welcome to the museum of myself.,
-    欢迎来到我的自我博物馆。, 
-    Step into the gallery of my soul.', 
-  /*  
-  'Enter the archive of my essence.', 
-    '进入我本质的档案馆。', 
-    'Discover the chronicles of my being.',
-    '发现我存在的编年史。',
-    'Explore the tapestry of my existence.',
-    '探索我生命的织锦。',
-    'Wander through the anthology of my life.',
-    '漫步我人生的选集。',
-    'Unveil the portrait of my inner world.',
-    '揭开我内在的扉页。',
-  */
+    'Welcome to the museum of myself.,欢迎来到我的自我博物馆。,Step into the gallery of my soul.,Enter the archive of my essence.,进入我本质的档案馆。,Discover the chronicles of my being.,发现我存在的编年史。,Explore the tapestry of my existence.,探索我生命的织锦。,Wander through the anthology of my life.,漫步我人生的选集。,Unveil the portrait of my inner world.,揭开我内在的扉页。',
   
   // uuid重定向至 slug
   UUID_REDIRECT: process.env.UUID_REDIRECT || false
