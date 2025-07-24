@@ -74,7 +74,7 @@ const BLOG = {
     'Wander through the anthology of my life.',
     '漫步我人生的选集。',
     'Unveil the portrait of my inner world.',
-    '揭开我内在的扉页。'
+    '揭开我内在的扉页。',
 
   // uuid重定向至 slug
   UUID_REDIRECT: process.env.UUID_REDIRECT || false
