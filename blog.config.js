@@ -66,7 +66,8 @@ const BLOG = {
   GREETING_WORDS:
     process.env.NEXT_PUBLIC_GREETING_WORDS ||
     'Step into the gallery of my soul.', 
-    'Enter the archive of my essence.', 
+  /*  
+  'Enter the archive of my essence.', 
     '进入我本质的档案馆。', 
     'Discover the chronicles of my being.',
     '发现我存在的编年史。',
@@ -76,7 +77,8 @@ const BLOG = {
     '漫步我人生的选集。',
     'Unveil the portrait of my inner world.',
     '揭开我内在的扉页。',
-
+  */
+  
   // uuid重定向至 slug
   UUID_REDIRECT: process.env.UUID_REDIRECT || false
 }
