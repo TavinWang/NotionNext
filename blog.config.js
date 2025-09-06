@@ -63,7 +63,7 @@ const BLOG = {
   // 欢迎语打字效果,Hexo,Matery主题支持, 英文逗号隔开多个欢迎语。
   GREETING_WORDS:
     process.env.NEXT_PUBLIC_GREETING_WORDS ||
-    'Hello, World!,Welcome to My Corner.,Stay Curious.',
+    'Welcome to My Corner.,Knowledge should be free.,Your Curiosity is an Anomaly in the Local Universe.',
 
   // uuid重定向至 slug
   UUID_REDIRECT: process.env.UUID_REDIRECT || false
